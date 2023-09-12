@@ -7,7 +7,7 @@
 
 /*
     2. let
-    ES6에서 추가된 block scope를 범위로 갖는 변수.
+    (ES6) block scope를 범위로 갖는 변수.
 */
 let globalLet = 'user in global';
 {
@@ -21,7 +21,7 @@ console.log(globalLet);
 
 /*
     3. var
-    ES6 이전에 사용되었던 scope의 영향을 받지 않는 변수. 
+    이전에 사용되었던 scope의 영향을 받지 않는 변수. 
     scope 위치에 상관없이 사용할 수 있는 경우를 hoisting이라고 한다.
 */
 {

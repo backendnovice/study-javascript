@@ -1,3 +1,5 @@
+'use strict';
+
 /*
     1. String 연결하기(concatenation)
 */
